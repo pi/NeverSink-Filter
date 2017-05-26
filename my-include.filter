@@ -1,0 +1,127 @@
+﻿#{{{
+Show # cur craft
+    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves"
+    Rarity <= Magic
+    ItemLevel >= 76
+    SetBorderColor 0 210 0 210
+    SetFontSize 38
+    PlayAlertSound 7 300
+
+Show # cur search
+    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 128 0 230
+    SetBorderColor 255 255 119
+    SetFontSize 42
+    PlayAlertSound 7 300
+
+Show # to chance
+    BaseType "Silk Slippers"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 0 210 0 210
+    SetFontSize 38
+    PlayAlertSound 7 300
+
+Show # Currency - T3
+    Class "Currency"
+    BaseType "Blessed Orb" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel" "Silver Coin"
+    SetTextColor 0 0 0
+    SetBackgroundColor 213 159 0
+    SetBorderColor 255 215 0
+    SetFontSize 42
+    PlayAlertSound 2 300
+
+Show # Currency - T4
+    Class "Currency"
+    BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble"
+    SetTextColor 0 0 0
+    SetBackgroundColor 170 158 130 230
+    SetBorderColor 255 255 119
+    SetFontSize 37
+    PlayAlertSound 9 70
+
+Show # Currency - T5
+    Class "Currency"
+    BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
+    SetTextColor 0 0 0
+    SetBackgroundColor 170 158 130 230
+    SetBorderColor 200 200 200
+    SetFontSize 37
+
+Show # Currency - T6
+    Class "Currency"
+    BaseType "Armourer's Scrap" "Orb of Augmentation" "Alteration Shard"
+    SetTextColor 0 0 0
+    SetBackgroundColor 170 158 130 230
+    SetBorderColor 170 158 130
+    SetFontSize 33
+
+Hide # Currency - Scrolls
+    Class "Currency"
+    BaseType "Portal Scroll" "Scroll of Wisdom"
+    SetTextColor 170 158 130 220
+    SetBackgroundColor 0 0 0 145
+    SetBorderColor 163 141 109 220
+    SetFontSize 30
+
+# maps ##################
+Show # Maps - T16
+    Class "Maps"
+    BaseType "Forge of the Phoenix Map" "Maze of the Minotaur Map" "Lair of the Hydra Map" "Pit of the Chimera Map" "Vaal Temple Map"
+    SetTextColor 255 255 119
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 119
+    SetFontSize 45
+    PlayAlertSound 6 300
+
+Show # Maps - T15
+    DropLevel >= 82
+    Class "Maps"
+    Rarity < Unique
+    SetTextColor 255 255 119
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 119
+    SetFontSize 45
+    PlayAlertSound 6 300
+
+Show # Maps - T13,14
+    DropLevel >= 80
+    Class "Maps"
+    Rarity < Unique
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 44
+    PlayAlertSound 4 300
+
+Show # Maps - T11,12
+    DropLevel >= 78
+    Class "Maps"
+    Rarity < Unique
+    SetTextColor 210 0 0
+    SetBackgroundColor 200 200 200
+    SetBorderColor 255 255 255
+    SetFontSize 43
+    PlayAlertSound 4 300
+
+Show # Maps - T6..10
+    DropLevel >= 73
+    Class "Maps"
+    Rarity < Unique
+    SetTextColor 255 255 0
+    SetBackgroundColor 200 200 200 200
+    SetBorderColor 255 255 255
+    SetFontSize 40
+    PlayAlertSound 4 300
+
+Show # Other maps
+    Class "Maps"
+    Rarity < Unique
+    SetTextColor 0 0 0
+    SetBackgroundColor 200 200 200 200
+    SetBorderColor 100 100 100
+    SetFontSize 35
+    PlayAlertSound 4 100
+#}}}
