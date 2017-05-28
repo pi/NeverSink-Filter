@@ -1,6 +1,14 @@
 ﻿#{{{
 Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves"
+    BaseType "Necromancer Silks"
+    Rarity = Normal
+    ItemLevel >= 76
+    SetBorderColor 0 210 0 210
+    SetFontSize 38
+    PlayAlertSound 7 300
+
+Show # cur craft
+    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Necromancer Silks"
     Rarity <= Magic
     ItemLevel >= 76
     SetBorderColor 0 210 0 210
@@ -65,6 +73,16 @@ Hide # Currency - Scrolls
     SetBackgroundColor 0 0 0 145
     SetBorderColor 163 141 109 220
     SetFontSize 30
+
+Show # Currency - small chromatic recipe
+    SocketGroup RGB
+    Width <= 2
+    Height <= 2
+    Rarity < Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 170 158 130 230
+    SetBorderColor 255 255 119
+    SetFontSize 37
 
 # maps ##################
 Show # Maps - T16
