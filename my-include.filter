@@ -58,6 +58,14 @@ Show # Currency - T6
     SetBorderColor 170 158 130
     SetFontSize 33
 
+Show # Currency - Scrolls
+    Class "Currency"
+    BaseType "Scroll of Wisdom"
+    SetTextColor 170 158 130 220
+    SetBackgroundColor 0 0 0 145
+    SetBorderColor 163 141 109 220
+    SetFontSize 33
+
 Hide # Currency - Scrolls
     Class "Currency"
     BaseType "Portal Scroll" "Scroll of Wisdom"
