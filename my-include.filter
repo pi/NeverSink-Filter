@@ -7,13 +7,13 @@ Show # cur craft
     SetFontSize 38
     PlayAlertSound 7 300
 
-Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Necromancer Silks"
-    Rarity <= Magic
-    ItemLevel >= 76
-    SetBorderColor 0 210 0 210
-    SetFontSize 38
-    PlayAlertSound 7 300
+#Show # cur craft
+#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves"
+#    Rarity <= Magic
+#    ItemLevel >= 76
+#    SetBorderColor 0 210 0 210
+#    SetFontSize 38
+#    PlayAlertSound 7 300
 
 Show # cur search
     BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand"
