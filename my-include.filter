@@ -93,6 +93,15 @@ Show # Maps - T16
     SetFontSize 45
     PlayAlertSound 6 300
 
+Show # T9+ Maps with flame sentinels
+    Class "Maps"
+    BaseType "Shipyard Map" "Crematorium Map" "High Gardens Map" "Scriptorium Map" "Palace Map" "Colosseum Map" "Maze Map" "Overgrown Ruin Map" "Quay Map" "Plaza Map" "Catacombs Map" "Necropolis Map" "Vault Map" "Temple Map" "Colonnade Map" "Overgrown Shrine Map"
+    SetTextColor 210 0 0
+    SetBackgroundColor 200 200 200
+    SetBorderColor 0 255 0
+    SetFontSize 45
+    PlayAlertSound 4 250
+	
 Show # Maps - T15
     DropLevel >= 82
     Class "Maps"
