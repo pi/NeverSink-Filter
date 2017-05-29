@@ -1,19 +1,18 @@
 ﻿#{{{
-Show # cur craft
-    BaseType "Necromancer Silks"
-    Rarity = Normal
-    ItemLevel >= 76
-    SetBorderColor 0 210 0 210
-    SetFontSize 38
-    PlayAlertSound 7 300
-
 #Show # cur craft
-#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves"
+#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Chain Belt"
 #    Rarity <= Magic
-#    ItemLevel >= 76
+#    ItemLevel >= 84
 #    SetBorderColor 0 210 0 210
 #    SetFontSize 38
 #    PlayAlertSound 7 300
+
+Hide #override neversink's chancing alrets
+    BaseType "Sorcerer Boots" "Leather Belt" "Prophecy Wand" "Goathide Boots"
+    Rarity Normal
+    ItemLevel < 84
+    SetTextColor 255 255 255 255
+    SetBorderColor 0 150 0 150
 
 Show # cur search
     BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand"
