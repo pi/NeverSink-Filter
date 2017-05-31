@@ -1,17 +1,17 @@
 ﻿#{{{
 #Show # cur craft
-#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Chain Belt"
-#    Rarity <= Magic
-#    ItemLevel >= 84
-#    SetBorderColor 0 210 0 210
-#    SetFontSize 38
-#    PlayAlertSound 7 300
+# BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Chain Belt"
+# Rarity <= Magic
+# ItemLevel >= 84
+# SetBorderColor 0 210 0 210
+# SetFontSize 38
+# PlayAlertSound 7 300
 
-Hide #override neversink's chancing alrets
+Hide # override neversink's chancing alrets
     BaseType "Sorcerer Boots" "Leather Belt" "Prophecy Wand" "Goathide Boots"
-    Rarity Normal
+    Rarity = Normal
     ItemLevel < 84
-    SetTextColor 255 255 255 255
+    SetTextColor 255 255 255
     SetBorderColor 0 150 0 150
 
 Show # cur search
@@ -57,7 +57,7 @@ Show # Currency - T6
     SetBorderColor 170 158 130
     SetFontSize 33
 
-Show # Currency - Scrolls
+Hide # Currency - Scrolls
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130 220
@@ -74,9 +74,9 @@ Hide # Currency - Scrolls
     SetFontSize 30
 
 Show # Currency - small chromatic recipe
-    SocketGroup RGB
-    Width <= 2
+    SocketGroup "RGB"
     Height <= 2
+    Width <= 2
     Rarity < Rare
     SetTextColor 0 0 0
     SetBackgroundColor 170 158 130 230
@@ -96,12 +96,12 @@ Show # Maps - T16
 Show # T9+ Maps with flame sentinels
     Class "Maps"
     BaseType "Shipyard Map" "Crematorium Map" "High Gardens Map" "Scriptorium Map" "Palace Map" "Colosseum Map" "Maze Map" "Overgrown Ruin Map" "Quay Map" "Plaza Map" "Catacombs Map" "Necropolis Map" "Vault Map" "Temple Map" "Colonnade Map" "Overgrown Shrine Map"
-    SetTextColor 210 0 0
-    SetBackgroundColor 200 200 200
-    SetBorderColor 0 255 0
+    SetTextColor 255 255 255
+    SetBackgroundColor 136 136 255
+    SetBorderColor 255 255 255
     SetFontSize 45
     PlayAlertSound 4 250
-	
+
 Show # Maps - T15
     DropLevel >= 82
     Class "Maps"
@@ -126,8 +126,8 @@ Show # Maps - T11,12
     DropLevel >= 78
     Class "Maps"
     Rarity < Unique
-    SetTextColor 210 0 0
-    SetBackgroundColor 200 200 200
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
     SetFontSize 43
     PlayAlertSound 4 300
@@ -136,8 +136,8 @@ Show # Maps - T6..10
     DropLevel >= 73
     Class "Maps"
     Rarity < Unique
-    SetTextColor 255 255 0
-    SetBackgroundColor 200 200 200 200
+    SetTextColor 0 0 0
+    SetBackgroundColor 227 227 18
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 4 300
@@ -146,8 +146,8 @@ Show # Other maps
     Class "Maps"
     Rarity < Unique
     SetTextColor 0 0 0
-    SetBackgroundColor 200 200 200 200
-    SetBorderColor 100 100 100
+    SetBackgroundColor 200 200 200
+    SetBorderColor 255 255 255
     SetFontSize 35
     PlayAlertSound 4 100
 #}}}
