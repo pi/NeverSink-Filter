@@ -15,7 +15,7 @@ Hide # override neversink's chancing alrets
     SetBorderColor 0 150 0 150
 
 Show # cur search
-    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand"
+    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand" "Gold Ring" "Gold Amulet"
     Rarity = Rare
     SetTextColor 255 255 119
     SetBackgroundColor 0 128 0 230
@@ -57,7 +57,7 @@ Show # Currency - T6
     SetBorderColor 170 158 130
     SetFontSize 33
 
-Hide # Currency - Scrolls
+Show # Currency - Scroll of Wisdom
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130 220
@@ -65,7 +65,7 @@ Hide # Currency - Scrolls
     SetBorderColor 163 141 109 220
     SetFontSize 33
 
-Hide # Currency - Scrolls
+Hide # Currency - Portal Scroll
     Class "Currency"
     BaseType "Portal Scroll" "Scroll of Wisdom"
     SetTextColor 170 158 130 220
