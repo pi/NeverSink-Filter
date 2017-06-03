@@ -1,11 +1,19 @@
 ﻿#{{{
-#Show # cur craft
-# BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Chain Belt"
-# Rarity <= Magic
-# ItemLevel >= 84
-# SetBorderColor 0 210 0 210
-# SetFontSize 38
-# PlayAlertSound 7 300
+Show # cur craft
+    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring"
+    Rarity <= Magic
+    ItemLevel >= 84
+    SetBorderColor 255 255 0
+    SetFontSize 38
+    PlayAlertSound 7 300
+
+Show # cur craft
+    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring"
+    Rarity = Magic
+    ItemLevel >= 74
+    SetBorderColor 255 125 0 200
+    SetFontSize 38
+    PlayAlertSound 7 300
 
 Hide # override neversink's chancing alrets
     BaseType "Sorcerer Boots" "Leather Belt" "Prophecy Wand" "Goathide Boots"
