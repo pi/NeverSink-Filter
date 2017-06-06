@@ -1,6 +1,6 @@
 ﻿#{{{
 Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring"
+    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
     Rarity <= Magic
     ItemLevel >= 84
     SetBorderColor 255 255 0
@@ -8,7 +8,7 @@ Show # cur craft
     PlayAlertSound 7 300
 
 Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring"
+    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
     Rarity = Magic
     ItemLevel >= 74
     SetBorderColor 255 125 0 200
@@ -23,7 +23,7 @@ Hide # override neversink's chancing alrets
     SetBorderColor 0 150 0 150
 
 Show # cur search
-    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand" "Gold Ring" "Gold Amulet"
+    BaseType "Unset Ring" "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Chain Belt" "Sorcerer Boots" "Sorcerer Gloves" "Imbued Wand" "Gold Ring" "Gold Amulet" "Eternal Burgonet" "Titan Gauntlets" "Titan Greaves"
     Rarity = Rare
     SetTextColor 255 255 119
     SetBackgroundColor 0 128 0 230
