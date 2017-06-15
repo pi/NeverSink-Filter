@@ -73,7 +73,7 @@ Show # Currency - Scroll of Wisdom
     SetBorderColor 163 141 109 220
     SetFontSize 33
 
-Hide # Currency - Portal Scroll
+Show # Currency - Portal Scroll
     Class "Currency"
     BaseType "Portal Scroll" "Scroll of Wisdom"
     SetTextColor 170 158 130 220
