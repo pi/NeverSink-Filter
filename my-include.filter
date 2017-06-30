@@ -1,19 +1,19 @@
 ﻿#{{{
-Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
-    Rarity <= Magic
-    ItemLevel >= 84
-    SetBorderColor 255 255 0
-    SetFontSize 38
-    PlayAlertSound 7 300
+#Show # cur craft
+#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
+#    Rarity <= Magic
+#    ItemLevel >= 84
+#    SetBorderColor 255 255 0
+#    SetFontSize 38
+#    PlayAlertSound 7 300
 
-Show # cur craft
-    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
-    Rarity = Magic
-    ItemLevel >= 74
-    SetBorderColor 255 125 0 200
-    SetFontSize 38
-    PlayAlertSound 7 300
+#Show # cur craft
+#    BaseType "Vaal Regalia" "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Boots" "Sorcerer Gloves" "Unset Ring" "Eternal Burgonet" "Titan Gauntlets"
+#    Rarity = Magic
+#    ItemLevel >= 74
+#    SetBorderColor 255 125 0 200
+#    SetFontSize 38
+#    PlayAlertSound 7 300
 
 Hide # override neversink's chancing alrets
     BaseType "Sorcerer Boots" "Leather Belt" "Prophecy Wand" "Goathide Boots"
@@ -71,9 +71,9 @@ Show # Currency - Scroll of Wisdom
     SetTextColor 170 158 130 220
     SetBackgroundColor 0 0 0 145
     SetBorderColor 163 141 109 220
-    SetFontSize 33
+    SetFontSize 35
 
-Show # Currency - Portal Scroll
+Hide # Currency - Portal Scroll
     Class "Currency"
     BaseType "Portal Scroll" "Scroll of Wisdom"
     SetTextColor 170 158 130 220
@@ -158,4 +158,48 @@ Show # Other maps
     SetBorderColor 255 255 255
     SetFontSize 35
     PlayAlertSound 4 100
+
+Show # 6-Sockets %TB-6S-Rare-Armors
+	Sockets 6
+	BaseType "Assassin's Garb" "Glorious Plate" "Astral Plate" "Vaal Regalia" "Zodiac Leather"
+	Rarity <= Rare
+	ItemLevel >= 84
+	SetFontSize 43
+	SetBorderColor 255 255 0 255         # BORDERCOLOR:	 Crafting: T1
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
+	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+
+Show # 6-Sockets %TB-6S-Rare-Weapons
+	Sockets 6
+	BaseType "Harbinger Bow" "Vaal Axe" "Coronal Maul" "Exquisite Blade"
+	Rarity <= Rare
+	ItemLevel >= 83
+	SetFontSize 42
+	SetBorderColor 255 255 0 255         # BORDERCOLOR:	 Crafting: T1
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
+	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+
+Show # 6-Sockets
+	Sockets 6
+	Rarity = Rare
+	ItemLevel >= 75
+	SetFontSize 40
+	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
+	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong leveling highlight
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
+	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+
+Show # 6-Sockets
+	Sockets 6
+	Rarity <= Rare
+	SetFontSize 40
+	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong leveling highlight
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
+	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+Show # 5-Links
+	LinkedSockets 5
+	Rarity < Unique
+	SetFontSize 40
+	SetBorderColor 0 255 255             # BORDERCOLOR:	 Cosmetic: 5L
+	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
 #}}}
