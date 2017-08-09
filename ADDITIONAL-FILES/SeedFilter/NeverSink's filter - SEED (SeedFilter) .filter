@@ -2,8 +2,8 @@
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
 # VERSION:		5.1
-# TYPE:			1-REGULAR
-# STYLE:			BLUE
+# TYPE:			SEED
+# STYLE:		NORMAL
 # AUTHOR:		NeverSink
 # BUILDNOTES:	Filter improved with NeverSink's Filterpolish tool (v0.3)
 
@@ -820,7 +820,7 @@ Show #$topcrafting, ilvl84 %D5 %TB-T1-Crafting
 	SetFontSize 42
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 255 255 0 255         # BORDERCOLOR:	 Crafting: T1
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$topcrafting, ilvl84 %D5 %TB-T2-Crafting-Jwl
 	Class Rings Amulet Belts
@@ -830,7 +830,7 @@ Show #$topcrafting, ilvl84 %D5 %TB-T2-Crafting-Jwl
 	SetFontSize 42
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 255 255 0 190         # BORDERCOLOR:	 Crafting: T2
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$topcrafting, ilvl84 %D2 %TB-T2-Crafting-84
 	BaseType "Profane Wand" "Sambar Sceptre" "Void Sceptre" "Imbued Wand" "Saintly Chainmail" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titan Gauntlets" "Slink Gloves" "Royal Burgonet" "Lion Pelt" "Titan Greaves" "Slink Boots" "Pinnacle Tower Shield" "Kris"
@@ -839,7 +839,7 @@ Show #$topcrafting, ilvl84 %D2 %TB-T2-Crafting-84
 	SetFontSize 42
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 255 255 0 190         # BORDERCOLOR:	 Crafting: T2
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$topcrafting, ilvl83 %D2 %TB-T2-Crafting-83
 	BaseType "Vaal Axe" "Coronal Maul" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Gemini Claw" "Ambusher" "Siege Axe" "Harpy Rapier" "Demon Dagger" "Skean" "Spiraled Foil" "Jewelled Foil" "Imperial Claw"
@@ -848,7 +848,7 @@ Show #$topcrafting, ilvl83 %D2 %TB-T2-Crafting-83
 	SetFontSize 42
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 255 255 0 190         # BORDERCOLOR:	 Crafting: T2
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 #------------------------------------
 #   [0602] T1 rare items
@@ -857,50 +857,23 @@ Show #$topcrafting, ilvl83 %D2 %TB-T2-Crafting-83
 Show #$great, weapons, small %D4 %TB-RARE-T1-WepSmall %UP
 	BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Skean" "Ezomyte Dagger"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 42
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
-
-Show
-	BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Skean" "Ezomyte Dagger"
-	Rarity Rare
 	SetFontSize 42
 	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$great, armor, small %D4 %TB-RARE-T1-ArmSmall %UP
 	BaseType "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 42
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
-
-Show
-	BaseType "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield"
-	Rarity Rare
 	SetFontSize 42
 	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$great, armor, bulky %D4 %TB-RARE-T1-Arm %UP
 	BaseType "Astral Plate"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 42
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
-
-Show
-	BaseType "Astral Plate"
-	Rarity Rare
 	SetFontSize 42
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 #------------------------------------
 #   [0603] T2 rare items
@@ -909,87 +882,42 @@ Show
 Show #$great, weapons, small %D3 %TB-RARE-T2-WepSmall %UP
 	BaseType "Gemini Claw" "Imperial Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Jewelled Foil" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Siege Axe"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 40
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
-
-Show
-	BaseType "Gemini Claw" "Imperial Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Jewelled Foil" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Siege Axe"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 40
 	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
+	SetBackgroundColor 10 60 25 255      # BACKGROUND:	 Rares - T2
 
 Show #$great, weapons, bulky %D3 %TB-RARE-T1-WepBig %UP
 	BaseType "Vaal Axe" "Coronal Maul" "Harbinger Bow"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 40
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
-
-Show
-	BaseType "Vaal Axe" "Coronal Maul" "Harbinger Bow"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 40
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
+	SetBackgroundColor 10 60 25 255      # BACKGROUND:	 Rares - T2
 
 Show #$great, weapons %D3 %TB-RARE-T2-Wep %UP
 	BaseType "Void Sceptre" "Sambar Sceptre"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 40
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
-
-Show
-	BaseType "Void Sceptre" "Sambar Sceptre"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 40
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
+	SetBackgroundColor 10 60 25 255      # BACKGROUND:	 Rares - T2
 
 Show #$great, armor, small %D3 %TB-RARE-T2-ArmSmall %UP
 	BaseType "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Royal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 40
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
-
-Show
-	BaseType "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Royal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 40
 	SetBorderColor 180 180 180 255       # BORDERCOLOR:	 Rares - Size - Small (+Great basetype)
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
+	SetBackgroundColor 10 60 25 255      # BACKGROUND:	 Rares - T2
 
 Show #$great, armor, bulky %D3 %TB-RARE-T2-Arm %UP
 	BaseType "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 40
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
-
-Show
-	BaseType "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 40
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
-	SetBackgroundColor 0 40 70 230       # BACKGROUND:	 Rares - T2
+	SetBackgroundColor 10 60 25 255      # BACKGROUND:	 Rares - T2
 
 #------------------------------------
 #   [0604] Breach Rings
@@ -1030,19 +958,10 @@ Show #$trinkets, jewels, tiny %TC-Rare-Jewels
 Show #$great, tiny %TC-Rare-Trinkets %UP %D5
 	Class Rings Amulets Belts
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 42
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 25 235 25 255         # BORDERCOLOR:	 Rares - Size - Tiny, special base
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
-
-Show
-	Class Rings Amulets Belts
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 42
 	SetBorderColor 25 235 25 255         # BORDERCOLOR:	 Rares - Size - Tiny, special base
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 #------------------------------------
 #   [0606] 1H Daggers
@@ -1052,31 +971,12 @@ Show #$R-T3, small, autosmall %D2 %TD-Rare-Good-Daggers %UP
 	DropLevel >= 50
 	Class Daggers
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 50
-	Class Daggers
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, small, autosmall %D1 %UP
-	Class Daggers
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class Daggers
 	Rarity Rare
 	ItemLevel >= 65
@@ -1092,31 +992,12 @@ Show #$R-T3, small, autosmall %D2 %TD-Rare-Good-Claws %UP
 	DropLevel >= 58
 	Class Claws
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 58
-	Class Claws
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, small, autosmall %D1 %UP
-	Class Claws
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class Claws
 	Rarity Rare
 	ItemLevel >= 65
@@ -1132,31 +1013,12 @@ Show #$R-T3, small, autosmall %D2 %TD-Rare-Good-Wands %UP
 	DropLevel >= 55
 	Class Wands
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 55
-	Class Wands
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, small, autosmall %D1 %UP
-	Class Wands
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class Wands
 	Rarity Rare
 	ItemLevel >= 65
@@ -1173,33 +1035,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Swords %UP
 	DropLevel >= 64
 	Class "One Hand Swords"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	Height = 4
-	DropLevel >= 64
-	Class "One Hand Swords"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Height = 4
-	Class "One Hand Swords"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Height = 4
 	Class "One Hand Swords"
 	Rarity Rare
@@ -1217,33 +1058,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Swords %UP
 	DropLevel >= 64
 	Class "One Hand Swords"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	Height < 4
-	DropLevel >= 64
-	Class "One Hand Swords"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Height < 4
-	Class "One Hand Swords"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Height < 4
 	Class "One Hand Swords"
 	Rarity Rare
@@ -1260,31 +1080,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Maces %UP
 	DropLevel >= 62
 	Class "One Hand Maces"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 62
-	Class "One Hand Maces"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "One Hand Maces"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "One Hand Maces"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1300,31 +1101,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Axes %UP
 	DropLevel >= 57
 	Class "One Hand Axes"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 57
-	Class "One Hand Axes"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "One Hand Maces"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "One Hand Maces"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1340,31 +1122,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Sceptres %UP
 	DropLevel >= 58
 	Class "Sceptres"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 58
-	Class "Sceptres"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "Sceptres"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Sceptres"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1380,31 +1143,12 @@ Show #$R-T3, bulky %D2 %TD-Rare-Good-Staves %UP
 	DropLevel >= 68
 	Class "Staves"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 68
-	Class "Staves"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, bulky %D1 %UP
-	Class "Staves"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Staves"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1420,31 +1164,12 @@ Show #$R-T3, bulky %D2 %TD-Rare-Good-2H-Axes-Maces-Swords %UP
 	DropLevel >= 60
 	Class "Two Hand"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 60
-	Class "Two Hand"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, bulky %D1 %UP
-	Class "Two Hand"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Two Hand"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1460,31 +1185,12 @@ Show #$R-T3, bulky %D2 %TD-Rare-Good-Bows %UP
 	DropLevel >= 57
 	Class "Bows"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 57
-	Class "Bows"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, bulky %D1 %UP
-	Class "Bows"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Bows"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1500,31 +1206,12 @@ Show #$R-T3, small, autosmall %D2 %TD-Rare-Good-SmallArmor %UP
 	DropLevel >= 15
 	Class "Gloves" "Boots" "Helmets"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 15
-	Class "Gloves" "Boots" "Helmets"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4, small, autosmall %D1 %UP
-	Class "Gloves" "Boots" "Helmets"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Gloves" "Boots" "Helmets"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1540,31 +1227,12 @@ Show #$R-T3 %D2 %TD-Rare-Good-Armor %UP
 	DropLevel >= 50
 	Class "Body Armour"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel >= 50
-	Class "Body Armour"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "Body Armour"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Body Armour"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1582,35 +1250,12 @@ Show #$R-T3, small %D2 %TD-Rare-Good-Small-Shields %UP
 	DropLevel >= 58
 	Class "Shields"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	Width <= 2
-	Height <= 2
-	DropLevel >= 58
-	Class "Shields"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Width <= 2
-	Height <= 2
-	Class "Shields"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Width <= 2
 	Height <= 2
 	Class "Shields"
@@ -1624,31 +1269,12 @@ Show #$R-T3, small %D2 %UP %TD-Rare-Good-Big-Shields
 	DropLevel > 62
 	Class "Shields"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	DropLevel > 62
-	Class "Shields"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 210 210 210           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "Shields"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Shields"
 	Rarity Rare
 	ItemLevel >= 65
@@ -1664,31 +1290,12 @@ Show #$RT3 %D2 %TB-Rare-Good-Quivers %UP
 	Class "Quivers"
 	BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
 	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 34
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
-
-Show
-	Class "Quivers"
-	BaseType "Spike-Point Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver"
-	Rarity Rare
 	ItemLevel >= 65
 	SetFontSize 34
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
 	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Rares - T3
 
 Show #$R-T4 %D1 %UP
-	Class "Quivers"
-	Rarity Rare
-	ItemLevel >= 75
-	SetFontSize 30
-	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
-	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 0 0 120         # BACKGROUND:	 Rares - T4
-
-Show
 	Class "Quivers"
 	Rarity Rare
 	ItemLevel >= 65
@@ -3138,7 +2745,7 @@ Show #$Leveling, small, autosmall, bhg, great
 	ItemLevel < 65
 	SetFontSize 42
 	SetBorderColor 100 255 255 255       # BORDERCOLOR:	 Leveling: 4-linked rare
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, autosmall, bhg, great
 	Class "Rings" "Amulets" "Belts"
@@ -3146,7 +2753,7 @@ Show #$Leveling, small, autosmall, bhg, great
 	ItemLevel < 65
 	SetFontSize 42
 	SetBorderColor 25 235 25 255         # BORDERCOLOR:	 Rares - Size - Tiny, special base
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, autosmall, bhg, great
 	Class "Boots"
@@ -3154,7 +2761,7 @@ Show #$Leveling, small, autosmall, bhg, great
 	ItemLevel < 30
 	SetFontSize 42
 	SetBorderColor 220 220 220           # BORDERCOLOR:	 Leveling: very useful rares
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, autosmall, bhg, great
 	Class "Boots" "Helmets" "Gloves"
@@ -3162,7 +2769,7 @@ Show #$Leveling, small, autosmall, bhg, great
 	ItemLevel < 65
 	SetFontSize 42
 	SetBorderColor 220 220 220           # BORDERCOLOR:	 Leveling: very useful rares
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good, exception
 	Class "Sceptres" "Daggers" "Wands"
@@ -3170,7 +2777,7 @@ Show #$Leveling, good, exception
 	ItemLevel < 65
 	SetFontSize 40
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3179,7 +2786,7 @@ Show #$Leveling, small, good
 	ItemLevel < 10
 	SetFontSize 40
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3188,14 +2795,14 @@ Show #$Leveling, small, good
 	ItemLevel < 10
 	SetFontSize 40
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	Rarity Rare
 	ItemLevel < 10
 	SetFontSize 38
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3205,7 +2812,7 @@ Show #$Leveling, small, good
 	ItemLevel < 15
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3215,7 +2822,7 @@ Show #$Leveling, small, good
 	ItemLevel < 15
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 5
@@ -3223,7 +2830,7 @@ Show #$Leveling, good
 	ItemLevel < 15
 	SetFontSize 38
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3233,7 +2840,7 @@ Show #$Leveling, small, good
 	ItemLevel < 20
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3243,7 +2850,7 @@ Show #$Leveling, small, good
 	ItemLevel < 20
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 10
@@ -3251,7 +2858,7 @@ Show #$Leveling, good
 	ItemLevel < 20
 	SetFontSize 38
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3261,7 +2868,7 @@ Show #$Leveling, small, good
 	ItemLevel < 25
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3271,7 +2878,7 @@ Show #$Leveling, small, good
 	ItemLevel < 25
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 15
@@ -3279,7 +2886,7 @@ Show #$Leveling, good
 	ItemLevel < 25
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3289,7 +2896,7 @@ Show #$Leveling, small, good
 	ItemLevel < 30
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3299,7 +2906,7 @@ Show #$Leveling, small, good
 	ItemLevel < 30
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 20
@@ -3307,7 +2914,7 @@ Show #$Leveling, good
 	ItemLevel < 30
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3317,7 +2924,7 @@ Show #$Leveling, small, good
 	ItemLevel < 35
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3327,7 +2934,7 @@ Show #$Leveling, small, good
 	ItemLevel < 35
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 25
@@ -3335,7 +2942,7 @@ Show #$Leveling, good
 	ItemLevel < 35
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3345,7 +2952,7 @@ Show #$Leveling, small, good
 	ItemLevel < 40
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3355,7 +2962,7 @@ Show #$Leveling, small, good
 	ItemLevel < 40
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 30
@@ -3363,7 +2970,7 @@ Show #$Leveling, good
 	ItemLevel < 40
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3373,7 +2980,7 @@ Show #$Leveling, small, good
 	ItemLevel < 45
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3383,7 +2990,7 @@ Show #$Leveling, small, good
 	ItemLevel < 45
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 35
@@ -3391,7 +2998,7 @@ Show #$Leveling, good
 	ItemLevel < 45
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3401,7 +3008,7 @@ Show #$Leveling, small, good
 	ItemLevel < 50
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3411,7 +3018,7 @@ Show #$Leveling, small, good
 	ItemLevel < 50
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 40
@@ -3419,7 +3026,7 @@ Show #$Leveling, good
 	ItemLevel < 50
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3429,7 +3036,7 @@ Show #$Leveling, small, good
 	ItemLevel < 55
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3439,7 +3046,7 @@ Show #$Leveling, small, good
 	ItemLevel < 55
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 45
@@ -3447,7 +3054,7 @@ Show #$Leveling, good
 	ItemLevel < 55
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3457,7 +3064,7 @@ Show #$Leveling, small, good
 	ItemLevel < 60
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3467,7 +3074,7 @@ Show #$Leveling, small, good
 	ItemLevel < 60
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 50
@@ -3475,7 +3082,7 @@ Show #$Leveling, good
 	ItemLevel < 60
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 2
@@ -3485,7 +3092,7 @@ Show #$Leveling, small, good
 	ItemLevel < 65
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, small, good
 	Width <= 1
@@ -3495,7 +3102,7 @@ Show #$Leveling, small, good
 	ItemLevel < 65
 	SetFontSize 38
 	SetBorderColor 150 150 150           # BORDERCOLOR:	 Rares - Size - Small (+Good basetype), Recipe: small/high qual
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 Show #$Leveling, good
 	DropLevel > 55
@@ -3503,7 +3110,7 @@ Show #$Leveling, good
 	ItemLevel < 65
 	SetFontSize 32
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
-	SetBackgroundColor 0 40 70 255       # BACKGROUND:	 Rares - T1
+	SetBackgroundColor 35 100 20 255     # BACKGROUND:	 Rares - T1
 
 #------------------------------------
 #   [2202] Leveling rares - remaining rules
