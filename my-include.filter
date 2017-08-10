@@ -7,7 +7,7 @@ Show # Currency - Scroll of Wisdom
     SetBorderColor 170 158 130
     SetFontSize 40
 
-Hide # Currency - Portal Scroll
+Show # Currency - Portal Scroll
     Class "Currency"
     BaseType "Portal Scroll"
     SetTextColor 170 158 130
@@ -59,16 +59,16 @@ Hide # override neversink's chancing alrets
 
 Show # Currency - T3
     Class "Currency"
-    BaseType "Blessed Orb" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel" "Silver Coin"
+    BaseType "Blessed Orb" "Orb of Fusing" "Orb of Alchemy" "Cartographer's Chisel"
     SetTextColor 0 0 0
     SetBackgroundColor 213 159 0
     SetBorderColor 255 215 0
     SetFontSize 42
-    PlayAlertSound 2 200
+    PlayAlertSound 2 100
 
 Show # Currency - T4
     Class "Currency"
-    BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble"
+    BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble" "Silver Coin"
     SetTextColor 0 0 0
     SetBackgroundColor 170 158 130 230
     SetBorderColor 255 255 119
@@ -186,6 +186,7 @@ Show # 6-Sockets
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong leveling highlight
 	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
 	PlayAlertSound 1 100                 # DROPSOUND:	 Value Drop: Currency, fragments
+
 Show # 5-Links
 	LinkedSockets 5
 	Rarity < Unique
