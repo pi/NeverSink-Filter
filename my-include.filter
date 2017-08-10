@@ -47,14 +47,14 @@ Hide # override neversink's chancing alrets
 #    SetFontSize 42
 #    PlayAlertSound 7 300
 
-Show # cur search
-    BaseType "Basalt Flask"
+#Show # cur search
+#    BaseType "Basalt Flask"
 #    Rarity = Rare
 #    SetTextColor 255 255 119
 #    SetBackgroundColor 0 128 0 230
 #    SetBorderColor 255 255 119
-    SetFontSize 45
-    PlayAlertSound 7 300
+#    SetFontSize 45
+#    PlayAlertSound 7 300
 
 
 Show # Currency - T3
@@ -64,7 +64,7 @@ Show # Currency - T3
     SetBackgroundColor 213 159 0
     SetBorderColor 255 215 0
     SetFontSize 42
-    PlayAlertSound 2 300
+    PlayAlertSound 2 200
 
 Show # Currency - T4
     Class "Currency"
@@ -169,26 +169,6 @@ Show # Other maps
     SetFontSize 35
     PlayAlertSound 4 100
 
-Show # 6-Sockets %TB-6S-Rare-Armors
-	Sockets 6
-	BaseType "Assassin's Garb" "Glorious Plate" "Astral Plate" "Vaal Regalia" "Zodiac Leather"
-	Rarity <= Rare
-	ItemLevel >= 84
-	SetFontSize 43
-	SetBorderColor 255 255 0 255         # BORDERCOLOR:	 Crafting: T1
-	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
-	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
-
-Show # 6-Sockets %TB-6S-Rare-Weapons
-	Sockets 6
-	BaseType "Harbinger Bow" "Vaal Axe" "Coronal Maul" "Exquisite Blade"
-	Rarity <= Rare
-	ItemLevel >= 83
-	SetFontSize 42
-	SetBorderColor 255 255 0 255         # BORDERCOLOR:	 Crafting: T1
-	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
-	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
-
 Show # 6-Sockets
 	Sockets 6
 	Rarity = Rare
@@ -197,7 +177,7 @@ Show # 6-Sockets
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong leveling highlight
 	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
-	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+	PlayAlertSound 1 100                 # DROPSOUND:	 Value Drop: Currency, fragments
 
 Show # 6-Sockets
 	Sockets 6
@@ -205,7 +185,7 @@ Show # 6-Sockets
 	SetFontSize 40
 	SetBorderColor 250 250 250           # BORDERCOLOR:	 Recipes: top component / very strong leveling highlight
 	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
-	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+	PlayAlertSound 1 100                 # DROPSOUND:	 Value Drop: Currency, fragments
 Show # 5-Links
 	LinkedSockets 5
 	Rarity < Unique
