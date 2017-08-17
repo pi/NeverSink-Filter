@@ -75,6 +75,15 @@ Show # Currency - T4
     SetFontSize 39
     PlayAlertSound 9 70
 
+Show #$chancing (no sound) %TB-T2-Chancing %D1
+	BaseType "Glorious Plate" "Close Helmet"
+	Rarity Normal
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
+	SetBorderColor 0 255 0 200           # BORDERCOLOR:	 T2 Chancing
+	SetFontSize 39
+	PlayAlertSound 9 200
+
+
 Show # Currency - T5
     Class "Currency"
     BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
@@ -193,4 +202,21 @@ Show # 5-Links
 	SetFontSize 40
 	SetBorderColor 0 255 255             # BORDERCOLOR:	 Cosmetic: 5L
 	PlayAlertSound 1 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+
+Show #$flask, recipe, glass %D1
+	Quality >= 10
+	BaseType "Flask"
+	Rarity <= Magic
+	ItemLevel > 65
+	SetFontSize 36
+	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
+
+Show #$flask, utility %D2
+	Class "Utility Flasks"
+	Rarity <= Magic
+	ItemLevel > 65
+	SetFontSize 36
+	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Cosmetic: Neutral Highlight
+	SetBackgroundColor 75 75 75          # BACKGROUND:	 Recipes
 #}}}
