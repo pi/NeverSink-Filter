@@ -1,4 +1,12 @@
 ﻿#{{{
+Show # craft
+    BaseType "Vaal Axe"
+    Rarity < Unique
+    ItemLevel >= 84
+    SetBorderColor 255 255 119
+    SetFontSize 42
+    PlayAlertSound 7 300
+
 Show # Currency - Scroll of Wisdom
     Class "Currency"
     BaseType "Scroll of Wisdom"
